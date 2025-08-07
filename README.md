@@ -37,7 +37,9 @@ The project uses the following three primary tables:
 - Learn use of CTEs, views, stored procedures, and analytical functions
 - Build a portfolio-ready SQL project with real-world business queries
 
----CREATED EMPLOYEES table and bulk inserted the data from csv file
+## Schema
+
+### CREATED EMPLOYEES table and bulk inserted the data from csv file
 ``` sql CREATE TABLE Employees(
 employee_id	int,
 first_name	VARCHAR(25),
@@ -54,7 +56,7 @@ With
  )
 ```
 
----CREATED Salaries table and bulk inserted the data from csv file
+### CREATED Salaries table and bulk inserted the data from csv file
 
 CREATE TABLE Salaries
 (employee_id int,
@@ -71,7 +73,7 @@ With
 )
 
 
-# Create Table Departments and insert the records using given query.
+### Create Table Departments and insert the records using given query.
 ``` sql CREATE TABLE Departments( 
 Department_ID INT Primary Key, 
 Department_Name Varchar(20))
